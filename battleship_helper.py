@@ -18,6 +18,7 @@ class battleship_helper:
         self.grid[x,y] = 0
 
     def target_hit(self, x, y):
+        """
         Modify the grid in place by replacing a 1 with a zero
         :param coordinates: The coordinates of the hit.
         :return: Returns error if cell already hit. Otherwise, modifies the grid in place.
